@@ -10,7 +10,7 @@ $( "body" ).prepend("<input type='text' id='term_to_search' placeholder='Termo a
         $('#term_to_search').val(localStorage.termo);
         setInterval(function(){
             buscaTermo();
-        }, 3000);
+        }, 10000);
     }
     function tiraAcentos(i) {
         return i;
