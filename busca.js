@@ -1,6 +1,8 @@
+$(document).ready(function() {
 setInterval(function(){
   location.reload();
 }, 60000);
+});
 $( "body" ).prepend("<input type='text' id='term_to_search' placeholder='Termo a ser pesquisado'><button id='start_search'>Gravar e Iniciar</button>");
     $('body').prepend('<audio id="notificacao" preload="auto"><source src="https://github.com/nosied/Busca-Textal/raw/master/sms-alert-1-daniel_simon.mp3" type="audio/mpeg"></audio>');
     $('body').on('click', '#start_search',function () {
